@@ -70,9 +70,15 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-/* making a grid */
+/* table border */
+table, td {
+  border: 1px solid black;
+}
 
-.container {
-  display: grid;
-  border-color: red;
+table {
+  width: 100%; 
+}
+
+td {
+  height: 50px;
 }

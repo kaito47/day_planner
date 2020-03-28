@@ -76,9 +76,24 @@ table, td {
 }
 
 table {
-  width: 100%; 
+  width: 90%; 
+  text-align: center;
+  margin-left: 5%;
 }
 
 td {
   height: 50px;
+}
+
+.time {
+  width: 10%;
+  font-weight: bold;
+}
+
+.form {
+  width: 75%;
+}
+
+.dropdown {
+  border: none;
 }

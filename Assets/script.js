@@ -22,9 +22,19 @@ let timeDate = document.querySelector("#timeDate")
 timeDate.innerHTML = moment().format("LLL");
 
 
-// moment().format("MMMM Do YYYY, h:mm:ss a"));
+// dropdown button toggle
+function dropdown() {
+    document.getElementById("dropdown").classList.toggle("show");
+  }
 
 
 
+// let dropdownBtn = document.querySelector('#dropdown');
+// dropdownBtn.addEventListener('click', dropdown());
+
+// function dropdown() {
+//     dropdownBtn.classList.toggle("show");
+//   }
+ 
 
 //troubleshooting

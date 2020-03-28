@@ -70,6 +70,10 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+#day {
+  font-size: 3rem;
+}
+
 /* table border */
 table, td {
   border: 1px solid black;
@@ -88,12 +92,21 @@ td {
 .time {
   width: 10%;
   font-weight: bold;
+  padding: 10px;
 }
 
 .form {
   width: 75%;
 }
 
+.form:hover {
+  background-color: aquamarine;
+}
+
 .dropdown {
-  border: none;
+  border-color: none;
+}
+
+.dropdown:hover {
+ background-color: #ff6961;
 }

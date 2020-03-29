@@ -75,6 +75,10 @@ textarea:hover {
   background-color: aquamarine;
 }
 
-container {
+.container {
   text-align: center;
+}
+
+.fas {
+  font-size: 2.5rem;
 }

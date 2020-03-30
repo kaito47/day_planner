@@ -75,7 +75,7 @@ $('#input5p').append(savedText5p);
 
 
 //selecting user input with on click
-$('#saveBtn7a').on('click', function (event) {
+$('button').on('click', function (event) {
   event.preventDefault();
   var text7a = $('#input7a').val();
   console.log(text7a);
@@ -84,7 +84,7 @@ $('#saveBtn7a').on('click', function (event) {
   
 })
 
-$('#saveBtn8a').on('click', function (event) {
+$('button').on('click', function (event) {
   event.preventDefault();
   var text8a = $('#input8a').val();
   console.log(text8a);

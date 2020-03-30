@@ -33,7 +33,7 @@ $('textarea').each(function () {
     $(this).addClass('future');
   }
 
-  if (parsedText === currentHour) {
+  if (parsedText == currentHour) {
     $(this).addClass('present');
   }
 }
@@ -74,7 +74,6 @@ var savedText5p = localStorage.getItem('text5p');
 $('#input5p').append(savedText5p);
 
 
-
 //selecting user input with on click
 $('#saveBtn7a').on('click', function (event) {
   event.preventDefault();
@@ -82,7 +81,7 @@ $('#saveBtn7a').on('click', function (event) {
   console.log(text7a);
 
   localStorage.setItem('text7a', text7a);
-  // setText();
+  
 })
 
 $('#saveBtn8a').on('click', function (event) {

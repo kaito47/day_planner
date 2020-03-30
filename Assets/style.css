@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  margin-bottom: 2%;
 }
 
 textarea{
@@ -67,7 +68,7 @@ button i:hover {
 }
 
 textarea:hover {
-  background-color: aquamarine;
+  background-color: navy;
 }
 
 .container {

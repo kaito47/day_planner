@@ -32,5 +32,5 @@ The color of the planner text box will changed based on the current local hour. 
 
 ## Link:
 
-![link](https://kaito47.github.io/day_planner/)
+https://kaito47.github.io/day_planner
 

@@ -81,7 +81,7 @@ $('button').on('click', function (event) {
   console.log(text7a);
 
   localStorage.setItem('text7a', text7a);
-  
+
 })
 
 $('button').on('click', function (event) {
